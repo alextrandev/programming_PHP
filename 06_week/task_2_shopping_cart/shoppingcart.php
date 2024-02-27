@@ -15,11 +15,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
     @$productName = $_POST["productname"];
     @$productAmount = $_POST["productamount"];
-    if (@$productAmount == "") {
-        $errormsg = "Please choose an amount!";
-    } else {
-        $errormsg = "";
-    }
+    @$productAmount == "" ? $errormsg = "Please choose an amount!" : $errormsg = "";
     for ($i = 0; $i < $productAmount; $i++) {
         $cart[] = $productName;
     }
@@ -61,7 +57,7 @@
         </p>
         <p><label for="productamount">Amount:</label><br>
             <input type="number" id="productamount" name="productamount"><br>
-        <?php echo $errormsg ?>
+        <p style = "color: red; font-size: 0.8rem"><?php echo $errormsg ?></p>
         </p>
         <p><input type="submit" name="addproduct" value="Add to cart"></p>
     </form>
