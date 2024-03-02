@@ -1,0 +1,62 @@
+[
+  {
+    "Number": "ABC123",
+    "Make": "Ford",
+    "Model": "Focus",
+    "Color": "Blue"
+  },
+  {
+    "Number": "DEF456",
+    "Make": "Toyota",
+    "Model": "Corolla",
+    "Color": "Red"
+  },
+  {
+    "Number": "GHI789",
+    "Make": "Chevrolet",
+    "Model": "Camaro",
+    "Color": "Black"
+  },
+  {
+    "Number": "JKL012",
+    "Make": "Honda",
+    "Model": "Accord",
+    "Color": "Silver"
+  },
+  {
+    "Number": "MNO345",
+    "Make": "Jeep",
+    "Model": "Wrangler",
+    "Color": "Green"
+  },
+  {
+    "Number": "PQR678",
+    "Make": "BMW",
+    "Model": "3 Series",
+    "Color": "White"
+  },
+  {
+    "Number": "STU901",
+    "Make": "Audi",
+    "Model": "A4",
+    "Color": "Gray"
+  },
+  {
+    "Number": "VWX234",
+    "Make": "Mercedes-Benz",
+    "Model": "C-Class",
+    "Color": "Black"
+  },
+  {
+    "Number": "YZA567",
+    "Make": "Subaru",
+    "Model": "Outback",
+    "Color": "Blue"
+  },
+  {
+    "Number": "BCD890",
+    "Make": "Volkswagen",
+    "Model": "Jetta",
+    "Color": "Red"
+  }
+]
