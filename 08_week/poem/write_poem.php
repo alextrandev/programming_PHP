@@ -17,7 +17,7 @@
     <div id="poem">
         <?php
             // read the poem from file and display here
-            print nl2br(file_get_contents("poem.txt"));
+            if(file_exists("poem.txt")) print nl2br(file_get_contents("poem.txt"));
         ?>
     </div>
 
