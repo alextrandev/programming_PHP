@@ -1,5 +1,8 @@
 <?php
     // if the form has been sent, add the new verse to the file
+    if ($_SERVER["REQUEST_METHOD"] == "POST") if (isset($_POST["new-verse"])) file_put_contents("poem.txt", "\n".$_POST["new-verse"], FILE_APPEND) or die("Something went wrong, try again!");
+    // $write_poem = fopen("poem.txt", "a") or die("Something went wrong, try again!");
+    // fwrite($write_poem, $_POST["new-verse"]);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +17,7 @@
     <div id="poem">
         <?php
             // read the poem from file and display here
+            print nl2br(file_get_contents("poem.txt"));
         ?>
     </div>
 
